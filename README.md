@@ -17,3 +17,7 @@ Open [http://localhost:3000](http://localhost:3000).
 npm run lint
 npm run build
 ```
+
+## Deployment
+
+GitHub Actions deploys the static export to GitHub Pages using `.github/workflows/static.yml` when changes are pushed to `main`.
