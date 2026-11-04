@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="12" fill="#050505"/><path d="M17 11h14v4H21v7h9v4h-9v11h-4z" fill="#FF5722"/><circle cx="35" cy="35" r="3" fill="#FF5722"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Pradheep orange P monogram">
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb000"/>
+      <stop offset="0.48" stop-color="#ff7900"/>
+      <stop offset="1" stop-color="#f04400"/>
+    </linearGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9a00"/>
+      <stop offset="0.72" stop-color="#f65a00"/>
+      <stop offset="1" stop-color="#a92700"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9f2600" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#9f2600" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="82" fill="#050505"/>
+  <!-- Rounded upper ribbon and bowl of the monogram -->
+  <path d="M104 101 H278 C369 101 424 157 424 245 C424 331 365 384 278 384 H220 V326 H278 C331 326 359 296 359 245 C359 194 331 165 278 165 H104 Z" fill="url(#orange)"/>
+  <!-- Long folded stem, with a tapered curved foot -->
+  <path d="M164 164 H224 V414 C224 463 197 496 150 510 V192 C150 178 155 169 164 164 Z" fill="url(#stem)"/>
+  <!-- Subtle fold shadow where the stem passes beneath the top stroke -->
+  <path d="M150 164 H224 V232 H150 Z" fill="url(#shade)" opacity=".75"/>
+</svg>
