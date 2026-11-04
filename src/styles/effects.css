@@ -1,0 +1,11 @@
+.liquid-glass { background: var(--glass-bg); border: 1px solid var(--glass-border); box-shadow: inset 0 1px 1px rgba(255,255,255,.05), 0 12px 40px rgba(0,0,0,.5); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+.interactive-element { transition: transform .35s cubic-bezier(.16,1,.3,1), border-color .35s, background-color .35s, box-shadow .35s; }
+.interactive-element:hover { border-color: rgba(255,87,34,.4); background-color: rgba(255,87,34,.035); transform: translateY(-3px); box-shadow: 0 10px 28px rgba(255,87,34,.12); }
+.tactile-btn { transition: transform .2s cubic-bezier(.16,1,.3,1), background-color .2s, box-shadow .2s; }
+.tactile-btn:active { transform: scale(.97); }
+.ai-glow { position: relative; }
+.ai-glow::after { content: ''; position: absolute; inset: -1px; z-index: -1; border-radius: inherit; background: linear-gradient(90deg, transparent, var(--color-accent), transparent); opacity: 0; transition: opacity .5s; }
+.ai-glow:hover::after { opacity: .35; }
+.bento-grid { display: grid; grid-template-columns: repeat(12,minmax(0,1fr)); gap: 1.5rem; }
+.bento-item { border-radius: 1.5rem; }
+.neural-canvas { opacity: .56; }
